@@ -30,3 +30,20 @@ console.log('-----');
 console.log(driver);
 console.log(navigator);
 // Iteration 3: Loops
+console.log('----')
+// for (let i = 0; i <driver.length; i++) {
+//     console.log(driver[i]);
+// };
+console.log('----')
+let arrayLetter = [];
+for (let i = 0; i < driver.length; i++) {
+    let driverLetter = driver.charAt(i)
+    console.log(driverLetter);
+    console.log(typeof(driverLetter))
+    arrayLetter.push(driverLetter);
+    console.log(arrayLetter)
+}
+console.log('----')
+// let driverLetterCapital = driverLetter.toUppperCase();
+// console.log(driverLetterCapital)
+
